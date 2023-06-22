@@ -155,6 +155,32 @@ img {
   align-items: center;
 }
 
+.nav-logo, .nav-toggle, .nav-close{
+  display: flex;
+  color: var(--title-color);
+}
+
+
+.nav-logo{
+  align-items: center;
+  column-gap: .5rem;
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  transition: color .3s;
+}
+
+.nav-logo img{
+  width: 180px;
+}
+
+.nav-toggle{
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+
 /* Show menu */
 
 
