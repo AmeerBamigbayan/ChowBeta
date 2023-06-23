@@ -180,6 +180,64 @@ img {
   transition: color .3s;
 }
 
+@media screen and (max-width: 767px) {
+  .nav-menu{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: var(--body-color);
+    width: 100%;
+    box-shadow: 0 8px 20px #f1f0f0;
+    padding-block: 3.5rem;
+    transition: top .4s;
+  }
+  
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+}
+
+.nav-link{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: color .4s;
+}
+
+.nav-link:hover{
+  color:  var(--first-color);
+}
+
+.nav-close{
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.nav-img-1, .nav-img-2{
+  position: absolute;
+  opacity: .2;
+}
+
+.nav-img-1{
+  width: 100px;
+  top: .75rem;
+  left: -0.2rem;
+  transform: rotate(165deg);
+}
+
+.nav-img-2{
+  width: 50px;
+  right: -0.2rem;
+  bottom: 0;
+  transform: rotate(-190deg);
+}
 
 /* Show menu */
 
