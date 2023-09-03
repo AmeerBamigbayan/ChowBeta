@@ -252,10 +252,74 @@ img {
 
 
 /*=============== HOME ===============*/
+.home{
+  position: relative;
+}
+
+.home-container{
+  row-gap: 3rem;
+  padding-top: 2rem;
+}
+
+.home-img{
+  width: 300px;
+  justify-self: center;
+}
+
+.home-data{
+  text-align: center;
+}
+
+.home-title{
+  font-size: var(--biggest-font-size);
+  font-family: var(--title-font);
+  margin-bottom: 1rem;
+}
+
+.home-title img{
+  width: 40px;
+}
+
+.home-title div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .5rem;
+}
+
+.home-description{
+  padding: 0 1rem;
+  margin-bottom: 2.5rem;
+}
+
 
 
 /*=============== BUTTON ===============*/
 
+.button{
+   display: inline-flex;
+   align-items: center;
+   column-gap: .5rem;
+   background-color: var(--first-color);
+   padding: 1rem 1.5rem;
+   border-radius: 4rem;
+   color: #fff;
+   font-weight: var(--font-medium);
+   transition: background .3s;
+}
+
+.button i{
+  font-size: 1.5rem;
+  transition: transform .3s;
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.button:hover i{
+  transform:  translateX(.25rem);
+}
 
 /*=============== ABOUT ===============*/
 
