@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -384,7 +385,49 @@ img {
   transition: transform .25rem;
 }
 
+.popular-name{
+  font-size: var(--h3-font-size);
+  font-family: var(--title-font);
+  margin-bottom: .25rem;
+}
 
+.popular-description{
+  display: block;
+  font-size: var(--smaller-font-size);
+  margin-bottom: 1rem;
+}
+
+.popular-price{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+}
+
+.popular-button{
+  display: flex;
+  background-color: var(--first-color);
+  padding: 6px;
+  border-radius:50%;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 20px hsla(19, 64%, 20%, .2);
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.popular-button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.popular-card:hover .popular-img{
+  transform: translateY(-.25rem);
+  transition: .3s;
+}
 
 
 /*=============== RECENTLY ===============*/
