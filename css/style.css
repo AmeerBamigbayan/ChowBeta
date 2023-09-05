@@ -15,7 +15,7 @@
   --text-color: hsl(19, 16%, 35%);
   --text-color-light: hsl(19, 8%, 55%);
   --body-color: #f5f5f5;
-  --container-color: hsl(19, 100%, 97%);
+  --container-color: #fcf6f7;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -365,6 +365,26 @@ img {
   justify-content: center;
   row-gap: 5.5rem;
 }
+
+.popular-card{
+  position: relative;
+  background-color: var(--container-color);
+  padding: 9rem 2rem 1.5rem;
+  box-shadow: 0 8px 20px hsla(12, 64%, 48%, .08);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.popular-img{
+  width: 220px;
+  position: absolute;
+  inset: 0;
+  top: -2.5rem;
+  margin: 0 auto;
+  transition: transform .25rem;
+}
+
+
 
 
 /*=============== RECENTLY ===============*/
