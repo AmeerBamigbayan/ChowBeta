@@ -432,6 +432,27 @@ img {
 
 /*=============== RECENTLY ===============*/
 
+.recently{
+  position: relative;
+}
+
+.recently-container{
+  row-gap: 4rem;
+}
+
+.recently-data{
+  position: relative;
+  text-align: center;
+}
+
+.recently-description{
+  margin-bottom: 2rem;
+}
+
+.recently-img{
+  width: 300px;
+  justify-self: center;
+}
 
 /*=============== NEWSLETTER ===============*/
 
