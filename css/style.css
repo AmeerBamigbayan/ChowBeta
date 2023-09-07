@@ -456,6 +456,61 @@ img {
 
 /*=============== NEWSLETTER ===============*/
 
+.newsletter-container{
+  position: relative;
+}
+
+.newsletter-content{
+  position: relative;
+  background-color: #990211;
+  border-radius: 2.5rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.newsletter-img{
+  width: 250px;
+  justify-self: center;
+ /* position: absolute;
+  top: -4.5rem;
+  left: -8rem;*/
+}
+
+.newsletter-data .section-subtitle{
+  color: #fff;
+}
+.newsletter-data .section-title{
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.newsletter-form{
+  background-color: #fff;
+  padding: 5px 5px 5px 16px;
+  border-radius: 4rem;
+  display: flex;
+  column-gap: .5rem;
+}
+
+.newsletter-input, .newsletter-button{
+  font-family: var(--body-font);
+  border: none;
+  outline: none;
+}
+
+.newsletter-input{
+  width: 90%;
+  color: var(--text-color);
+}
+
+.newsletter-button{
+  cursor: pointer;
+}
+
+
+
 
 /*=============== FOOTER ===============*/
 
