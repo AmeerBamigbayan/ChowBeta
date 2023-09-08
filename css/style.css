@@ -721,5 +721,32 @@ img {
   
 }
 
+@media screen and (min-width: 767px) {
+  .nav{
+    column-gap: 3rem;
+  }
 
+  .nav-toggle,
+  .nav-close{
+    display: none;
+  }
+  
+  .nav-list{
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+
+  .nav-menu{
+    margin-left: auto;
+  }
+
+  .popular-container{
+    grid-template-columns: repeat(2, 250px);
+  }
+
+  .footer-content{
+    grid-template-columns: repeat(4, max-content);
+  }
+
+}
 /* For large devices */
