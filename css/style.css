@@ -706,6 +706,20 @@ img {
 
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .home-container,
+  .about-container,
+  .recently-container,
+  .newsletter-content{
+    grid-template-columns: .7fr;
+    justify-content: center;
+  }
+
+  .footer-content{
+    grid-template-columns: repeat(3, max-content);
+  }
+  
+}
 
 
 /* For large devices */
