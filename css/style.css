@@ -662,6 +662,47 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px) {
+  .container{
+    margin-inline: 1rem;
+  }
+
+  .section{
+    padding-block: 4rem 1rem;
+  }
+
+  .home-title{
+    font-size: 2rem;
+  }
+
+  .newsletter-content{
+    padding: 6rem 1rem 2rem;
+  }
+
+  .newsletter-form{
+    flex-direction: column;
+    background: none;
+    row-gap: 1rem;
+  }
+
+  .newsletter-input{
+    width: initial;
+    padding: 1rem;
+    border-radius: 4rem;
+  }
+  
+  .newsletter-button{
+    justify-content: center;
+  }
+
+  .footer-content{
+    gap: 1.5rem;
+  }
+
+  .footer-description br{
+    display: none;
+  }
+}
 
 
 /* For medium devices */
