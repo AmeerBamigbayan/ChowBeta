@@ -287,6 +287,7 @@ img {
 
 .home-title img{
   width: 40px;
+  margin-right: -.4rem;
 }
 
 .home-title div{
@@ -775,7 +776,8 @@ img {
   }
 
   .home-title img{
-    width: 50px;
+    width: 45px;
+    margin-right: -1rem;
   }
 
   .home-title{
@@ -938,6 +940,7 @@ img {
     margin-inline: auto;
   }
   
+
 }
 
 
