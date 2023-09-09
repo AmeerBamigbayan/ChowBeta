@@ -77,3 +77,18 @@ window.addEventListener('scroll', scrollActive)
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true, //Animations repeat
+})
+
+sr.reveal('.home-img, .newsletter-container, .footer-logo, .footer-description, .footer-content, .footer-info')
+sr.reveal('.home-data', {origin: 'bottom'})
+sr.reveal('.about-data, .recently-data', {origin: 'left'})
+sr.reveal('.about-img, .recently-img', {origin: 'right'})
+sr.reveal('.popular-card', {interval: 100})
+
