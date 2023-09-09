@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -22,7 +22,7 @@
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
-  --title-font: "Lora", serif;
+  --title-font: "Montserrat", serif;
   --subtitle-font: "Dancing Script", cursive;
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
@@ -120,6 +120,9 @@ img {
   font-size: var(--h1-font-size);
   font-family: var(--title-font);
   margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+
 }
 
 .section-subtitle {
@@ -281,14 +284,15 @@ img {
 }
 
 .home-title{
-  font-size: var(--biggest-font-size);
+  font-size: 2rem;
   font-family: var(--title-font);
   margin-bottom: 1rem;
+  font-weight: 800;
 }
 
 .home-title img{
   width: 40px;
-  margin-right: -.4rem;
+  margin-left: -.2rem;
 }
 
 .home-title div{
@@ -296,6 +300,11 @@ img {
   align-items: center;
   justify-content: center;
   column-gap: .5rem;
+}
+
+.home-title div span{
+  color: var(--first-color);
+  font-weight: 900;
 }
 
 .home-description{
@@ -349,11 +358,16 @@ img {
   width: 30px;
 }
 
+.about-title{
+  font-weight: 700;
+} 
+
 .about-title div{
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: .5rem;
+  
 }
 
 .about-img{
@@ -452,6 +466,11 @@ img {
 
 .recently-description{
   margin-bottom: 2rem;
+}
+
+.recently .section-title span{
+  color: var(--first-color);
+  font-weight: 800;
 }
 
 .recently-img{
@@ -674,7 +693,7 @@ img {
   }
 
   .home-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .newsletter-content{
@@ -784,11 +803,11 @@ img {
 
   .home-title img{
     width: 45px;
-    margin-right: -1rem;
+    margin-left: -0.8rem;
   }
 
   .home-title{
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
   .home-title div{
     justify-content: initial;
@@ -823,6 +842,9 @@ img {
     text-align: initial;
   }
 
+  .about-title{
+    font-size: 2rem;
+  }
   .about-title div{
     column-gap: 1rem;
     justify-content: initial;
@@ -866,6 +888,10 @@ img {
   .recently .section-subtitle,
   .recently .section-title{
     text-align: initial;
+  }
+
+  .recently .section-title{
+    font-size: 2rem;
   }
 
   .recently-img{
