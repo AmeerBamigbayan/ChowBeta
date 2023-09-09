@@ -932,3 +932,12 @@ img {
     right: 3rem;
   }
 }
+
+@media screen and (min-width: 1064px) {
+  .container{
+    margin-inline: auto;
+  }
+  
+}
+
+
