@@ -51,6 +51,26 @@
     --smaller-font-size: .813rem;
   }
 }
+/*=========Effects========*/
+
+
+@keyframes spin_01{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes bounceTop_01{
+  0%,100%{
+      transform: translateY(-30px);
+  }
+  50%{
+      transform: translateY(0px);
+  }
+}
 
 /*=============== BASE ===============*/
 * {
@@ -293,6 +313,7 @@ img {
 .home-title img{
   width: 40px;
   margin-left: -.2rem;
+  animation: spin_01 5s linear infinite;
 }
 
 .home-title div{
@@ -476,6 +497,7 @@ img {
 .recently-img{
   width: 300px;
   justify-self: center;
+  animation: bounceTop_01 3s linear infinite;
 }
 
 /*=============== NEWSLETTER ===============*/
