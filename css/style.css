@@ -705,6 +705,12 @@ img {
   }
 }
 
+@media screen and (max-width: 360px){
+  .footer-description br{
+    display: none;
+  }
+
+}
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
